@@ -19,6 +19,8 @@
 > [!IMPORTANT]
 > Cloudflare OS is early-access software. Pin upstream releases, review changes, and verify the trust boundary before every production upgrade.
 
+For the Rector deployment at `os.rector.co.jp`, see [Rector deployment](docs/rector-deployment.md).
+
 ## Four steps
 
 1. Install the dependencies and run `pnpm exec wrangler login`.
