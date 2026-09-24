@@ -47,5 +47,10 @@ another application. The Access application ID is
    routes and that only the router serves `os.rector.co.jp`. Leave the example
    Custom Gatekeeper disabled in `/admin` until its behavior is reviewed.
 
-The first deployment provisions three new KV namespaces and one R2 bucket.
-Their identities and the six Worker names must remain stable to retain data.
+The first deployment provisioned three KV namespaces and one R2 bucket. Their
+identities are pinned in `deployment.jsonc`: Context KV
+`cb898b090f6547f4959310cec34805f1`, Blueprints KV
+`3e6bab2870cb4f0fa885bc83e94e3b71`, Avatars KV
+`2583dce8d7ab4c768a3ad362111bdd33`, and R2 bucket
+`rector-os-workshop-blueprint-content`. Keep these IDs and the six Worker names
+stable to retain data.
